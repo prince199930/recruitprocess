@@ -1,0 +1,201 @@
+.inputcon{
+    display: flex;
+    width: 99%;
+    height: 45vh;
+    background: #0ed745;
+}
+
+.inputcon p{
+    margin-left: 150px;
+    margin-top: 99px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.inputcon input{
+    margin-left: -240px;
+    margin-top: 143px;
+    width: 283px;
+    padding: 4px;
+    padding-left: 12px;
+    font-size: 20px;
+    color: black;
+    height: 5vh;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px #cccc;
+    outline: none;
+}
+
+.wrapper{
+    padding: 27px;
+    width: 72%;
+    margin: auto;
+    margin-top: -76px;
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.employeecontainer:nth-child(odd) {
+    background: #f8f9fa;
+}
+
+.employeedesc{
+    display: flex;
+    column-gap: 11%;
+    justify-content: end;
+}
+
+.employeedesc p {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.employeevalue{
+    width: 99%;
+}
+
+.employeecontainer{
+    display: flex;
+    align-items: center;
+    column-gap: 4%;
+    margin-left: -19px;
+    width: 105%;
+}
+
+.employeeimg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+img{
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.employeestatus{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.empname{
+    margin-bottom: -4%;
+    color: black;
+    font-weight: 500;
+}
+
+.role{
+    color: #ccc;
+    font-weight: 500;
+}
+
+.empprogress{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 73%;
+}
+
+.emprefer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+   
+}
+
+.empcircle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.pro{
+    width: 25%;
+    height: 3px;
+    background: #0ed745;
+}
+
+/* CSS FOR WINDOWSIZE LESS THAN 600 */
+
+.econtainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 4%;
+}
+
+.einnercon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eprogress{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+}
+
+.eprefer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: 55px;
+    
+}
+
+.prog{
+    rotate: 90deg;
+    width: 73%;
+    height: 3px;
+    margin-top: 43px;
+    background: #0ed745;
+    margin-left: -56px;
+}
+
+
+
+@media only screen and  (max-width:600px) {
+
+   .employeedesc{
+    display: none;
+   }
+   .inputcon p{
+    margin-left: auto;
+   }
+   .inputcon input{
+    margin-left: -238px;
+    margin-right: auto;
+   }
+   
+  }
+
+@media only screen and (min-width:600px) and (max-width:1280px) {
+    .employeedesc{
+        display: none;
+       }
+       .inputcon p{
+        margin-left: auto;
+       }
+       .inputcon input{
+        margin-left: -238px;
+        margin-right: auto;
+       }
+       .eprefer{
+        margin-bottom: 22%;
+        display: flex;
+        margin-top: 24%;
+       }
+    
+}
+
+
+
