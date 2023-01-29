@@ -7,15 +7,15 @@ function EmployeeResp(props) {
     const {i, e, handleClick, handleprog, activeIndex} = props;
 
   return (
-    <div key={i} className='econtainer'>
+    <div  className='econtainer'>
                             <div className='einnercon'>
 
-                            <p onClick={() => { handleClick(); handleprog(i);}}>{activeIndex===i?">":"<"}</p>
+                            <p style={{fontSize:"25px"}} className="up" onClick={() => { handleClick(); handleprog(i);}}>{activeIndex===i?">":"<"}</p>
                         <div className='employeeimg'>
                         <img src={EmployeeImage} alt='employeeimage' />
                         </div>
                         <div className='employeestatus'>
-                            <p className='empname'>{e.name}</p>
+                            <p style={{width:"179px"}} className='empname'>{e.name}</p>
                             <p className='role'>{e.role}</p>
                         </div>
                         </div>
